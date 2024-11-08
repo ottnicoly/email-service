@@ -1,6 +1,7 @@
 package com.ott.email_service.controllers;
 
 import com.ott.email_service.application.EmailSenderService;
+import com.ott.email_service.core.EmailRequest;
 import com.ott.email_service.core.exceptions.EmailServiceException;
 import org.apache.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
